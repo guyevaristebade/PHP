@@ -1,0 +1,17 @@
+    Modèle Logique de Données (MLD) :
+    Le MLD est un modèle de données qui représente la structure logique des données d'un système d'information. Il est indépendant de toute technologie de gestion de base de données spécifique et fournit une vue abstraite et simplifiée des données. Le MLD est généralement utilisé pour décrire les entités, les attributs, les relations et les contraintes d'intégrité des données d'un système.
+
+Exemple de MLD :
+Prenons l'exemple d'une application de gestion d'une bibliothèque. Le MLD pourrait inclure des entités telles que "Livre" avec des attributs comme "Titre", "Auteur" et "ISBN", ainsi que des relations telles que "Emprunt" entre les entités "Livre" et "Membre" avec des attributs comme "Date d'emprunt" et "Date de retour".
+
+    Modèle Conceptuel de Données (MCD) :
+    Le MCD est un modèle de données qui représente la structure conceptuelle des données d'un système d'information. Il est généralement utilisé pour décrire les entités, les relations et les contraintes d'intégrité des données de manière plus abstraite et indépendante de toute implémentation technique.
+
+Exemple de MCD :
+En reprenant l'exemple de l'application de gestion d'une bibliothèque, le MCD pourrait inclure des entités comme "Livre" et "Membre" avec leurs attributs respectifs, ainsi que des relations comme "Emprunt" entre les entités "Livre" et "Membre" sans entrer dans les détails de l'implémentation technique.
+
+    Modèle Physique de Données (MPD) :
+    Le MPD est un modèle de données qui représente la structure physique des données d'un système d'information. Il est spécifique à une technologie de gestion de base de données particulière et est généralement utilisé pour décrire la façon dont les données sont stockées et organisées sur le support de stockage.
+
+Exemple de MPD :
+Prenons toujours l'exemple de l'application de gestion d'une bibliothèque. Le MPD pourrait inclure des détails tels que le type de données utilisé pour chaque attribut (par exemple, chaîne de caractères, entier), la taille des colonnes, les index, les contraintes de clé étrangère, etc., spécifiques à la technologie de gestion de base de données utilisée, telle que MySQL, Oracle ou SQL Server.

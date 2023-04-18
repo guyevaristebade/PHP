@@ -7,4 +7,21 @@ Projet : Mini blog
     - Créer des utilisateurs 
     - gestion des cookies / sessions 
 
-# Inscription 
+
+Base de donnée 
+    - Etablir une base de donnée pour le poste des articles 
+    - Pour les différents utilisateur 
+    - Etablir le MCD / MLD / MPD 
+    - Mettre en place des privilèges 
+
+Fonctionnalités 
+    - Se connecter à un espace 
+    - Se déconnecter 
+    - Publier / éditer / supprimer des articles 
+    - filtrer les articles par année de parution / auteur / 
+    - afficher les 5 plus anciens articles 
+
+
+code 
+    - Essayer le PDO pour ce projet 
+    - Si possible tenter d'utiliser un framework PHP
