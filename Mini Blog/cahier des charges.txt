@@ -1,0 +1,10 @@
+Projet : Mini blog 
+
+    - Inscription / Connexion ( client )
+    - Panneau d'administration 
+    - Création de compte ( client )
+    - Publier / éditer / supprimer des articles 
+    - Créer des utilisateurs 
+    - gestion des cookies / sessions 
+
+# Inscription 
