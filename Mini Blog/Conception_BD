@@ -1,0 +1,48 @@
+MCD --> modèle logique de donnée 
+
+    Entité Article :
+        ID_article (clé primaire)
+        Titre
+        Contenu
+        Date
+
+    Entité Auteur/Autrice :
+        ID_auteur/autrice (clé primaire)
+        Nom
+        Prénom
+        Email
+
+    Relation entre Article et Auteur/Autrice :
+        Un article est écrit par un seul auteur/autrice
+        Un auteur/autrice peut écrire plusieurs articles
+
+
+MLD --> modèle conceptuel de donnée
+
+    Table Article avec les colonnes suivantes :
+        ID_article (clé primaire)
+        Titre
+        Contenu
+        Date
+        ID_auteur / autrice (clé étrangère faisant référence à la table Auteur/Autrice)
+
+    Table Auteur/Autrice avec les colonnes suivantes :
+        ID_auteur/autrice (clé primaire)
+        Nom
+        Prénom
+        Email
+
+MPD --> modèle conceptuelle de donnée 
+
+    Table Article avec les colonnes suivantes :
+        ID_article (int, clé primaire, auto-incrémentée)
+        Titre (varchar)
+        Contenu (text)
+        Date (datetime)
+        ID_auteur / autrice (int, clé étrangère faisant référence à la table Auteur/Autrice)
+
+    Table Auteur/Autrice avec les colonnes suivantes :
+        ID_auteur/autrice (int, clé primaire, auto-incrémentée)
+        Nom (varchar)
+        Prénom (varchar)
+        Email (varchar)

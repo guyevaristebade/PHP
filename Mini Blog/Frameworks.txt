@@ -4,4 +4,4 @@
 
     CodeIgniter : CodeIgniter est un framework PHP léger et facile à apprendre, idéal pour les débutants. Il offre une courbe d'apprentissage douce et une documentation claire. CodeIgniter est adapté pour les petits projets et est connu pour sa simplicité et sa rapidité d'exécution. Il suit également le modèle MVC et offre des fonctionnalités telles que la gestion des bases de données, le routage, la validation des formulaires, etc.
 
-    CakePHP : CakePHP est un autre framework PHP populaire qui suit le modèle MVC. Il offre une syntaxe simple et expressive, ainsi qu'une large gamme de fonctionnalités intégrées pour faciliter le développement d'applications web. CakePHP est connu pour sa convention sur la configuration, ce qui permet d'accélérer le développement en minimisant la configuration.
+    CakePHP : CakePHP est un autre framework PHP populaire qui suit le modèle MVC. Il offre une syntaxe simple et expressive, ainsi qu'une large gamme de fonctionnalités intégrées pour faciliter le développement d'applications web. CakePHP est connu pour sa convention sur la configuration, ce qui permet d'accélérer le développement en minimisant la configuration.wamp
