@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
 <?php 
-require('./head.php');
-require("../database/db_connect.php");
+    require('./head.php');
+    require("../database/db_connect.php");
 ?>
 <body>
     <?php 
