@@ -1,0 +1,121 @@
+.container{
+    background: #ffffff63;
+    padding: 2rem;
+    border-radius: 18px;
+}
+
+.presentation{
+    margin-top:2rem ;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.items .item{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.presentation .p-content{
+    text-align: center;
+    font-size: 18px;
+    padding: 0 4rem;
+}
+
+
+.action{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.action p{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.action .buttons{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.action .buttons a{
+    position: relative;
+    text-align: none;
+    color: #333;
+	border: 2px solid #000;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 17px;
+    background: #FFAE42;
+    font-weight: 700;
+    transition: background .2s ease-out;
+}
+
+.action .buttons a:hover{
+    background: #f18501;
+}
+
+/* .action .buttons a::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #FFAE42;
+    transition: background .2s ease-out;
+}
+
+.action .buttons a:hover::before{
+    background: #FFAE42;
+    width: 100%;
+} */
+
+.service_depannage{
+    margin-top: 4rem;
+}
+
+.service_depannage h1{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 2rem;
+}
+
+.service_depannage .card_manager {
+    display: grid;
+    grid-template-columns: repeat(3,350px);
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_manager .card{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 2rem 1rem;
+}
+
+.card .head_card {
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.head_card .img-container{
+    height: 54;
+    width: 58px;
+}
+
+.head_card .img-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 0 0 0;
+}
